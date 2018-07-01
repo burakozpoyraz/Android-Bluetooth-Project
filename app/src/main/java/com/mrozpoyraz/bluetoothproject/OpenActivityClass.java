@@ -18,7 +18,7 @@ public class OpenActivityClass {
 
     public void openActivityWithSendingAddress(String address) {
         Intent intent = new Intent(ctx, activity);
-        intent.putExtra("Address", address);
+        intent.putExtra("Device Address", address);
         ctx.startActivity(intent);
     }
 
